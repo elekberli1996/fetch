@@ -9,7 +9,7 @@
 // )))
 
 
-//2ci varyant
+// //2ci varyant
 // const options = {
 //     method: 'GET',
 //     headers: {
@@ -18,10 +18,16 @@
 //     }
 //   };
 
-
+// let number=1;
 // fetch('https://api.themoviedb.org/3/account/21183685//watchlist/movies?language=en-US&page=1&sort_by=created_at.asc', options).then(res=>
 // res.json().then(movies =>{
-//     movies.results.map(m=>console.log(m.original_title)) 
+//     movies.results.map(m=>
+//         {
+//           console.log( `${number} ci film ismi: ${m.original_title}`  )  ;
+//           number++
+//         }
+        
+//         ) 
 // }
 // ))
 
