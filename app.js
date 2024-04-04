@@ -9,17 +9,11 @@
 // )))
 
 
-// //2ci varyant
-// const options = {
-//     method: 'GET',
-//     headers: {
-//       accept: 'application/json',
-//       Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0M2IwYWNhNzBkMGIxOTIzODM4NTVlMGQyNDE1ZDMxZCIsInN1YiI6IjY2MGU1MGI0ZDQwMGYzMDE3ZDA3MjViMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.NHnNO0lMqAuijbsd8U75DsO5Hx4kE5Uk0RYGwq2lmjo'
-//     }
-//   };
+//2ci varyant
+
 
 // let number=1;
-// fetch('https://api.themoviedb.org/3/account/21183685//watchlist/movies?language=en-US&page=1&sort_by=created_at.asc', options).then(res=>
+// fetch('https://api.themoviedb.org/3/movie/popular?api_key=43b0aca70d0b192383855e0d2415d31d').then(res=>
 // res.json().then(movies =>{
 //     movies.results.map(m=>
 //         {
